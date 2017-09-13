@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,19 +92,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="jQueryExamples\SelectsTheCurrentHTMLElement.html" />
-    <Content Include="jQueryExamples\SelectsAllElementsWithClass.html" />
-    <Content Include="jQueryExamples\SelectsTheFirstElement.html" />
-    <Content Include="jQueryExamples\SelectsTheFirstLiElementofTheFirstUl - Copy.html" />
-    <Content Include="jQueryExamples\SelectsTheFirstLiElementofEveryUl.html" />
-    <Content Include="jQueryExamples\SelectsAllElementsWithAnHREFAttribute.html" />
-    <Content Include="jQueryExamples\SelectsAllElementsWithTargetAttribute.html" />
-    <Content Include="jQueryExamples\SelectsAllElementsTargetAttributeNOTEqual.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllOddTRElements.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsTheCurrentHTMLElement.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElementsWithClass.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsTheFirstElement.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsTheFirstLiElementofTheFirstUl - Copy.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsTheFirstLiElementofEveryUl.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElementsWithAnHREFAttribute.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElementsWithTargetAttribute.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElementsTargetAttributeNOTEqual.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElementsOfButton.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllEvenTRElements.html" />
     <Content Include="jQueryExamples\Template.html" />
-    <Content Include="jQueryExamples\SelectsAllElements.html" />
-    <Content Include="jQueryExamples\HideByClass.html" />
-    <Content Include="jQueryExamples\HideByID.html" />
-    <Content Include="jQueryExamples\HideParagraph.html" />
+    <Content Include="jQueryExamples\Selectors\SelectsAllElements.html" />
+    <Content Include="jQueryExamples\Hide\HideByClass.html" />
+    <Content Include="jQueryExamples\Hide\HideByID.html" />
+    <Content Include="jQueryExamples\Hide\HideParagraph.html" />
+    <Content Include="Notes\CommonCode.txt" />
     <Content Include="Notes\jQueryNotes.txt" />
     <Content Include="Notes\jQuery.docx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />

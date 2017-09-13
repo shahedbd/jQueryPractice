@@ -2,3 +2,12 @@
 
 
 Install-Package jQuery -Version 3.1.1
+
+Or direct from web:
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+
+
+
+Next start:
+https://www.w3schools.com/jquery/jquery_events.asp
